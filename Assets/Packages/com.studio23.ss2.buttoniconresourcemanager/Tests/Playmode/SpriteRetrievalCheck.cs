@@ -1,4 +1,4 @@
-using com.studio23.ss2.buttoniconresourcemanager.core;
+using Studio23.SS2.ButtonIconResourceManager.core;
 using NUnit.Framework;
 using System.Collections;
 using UnityEngine.TestTools;
