@@ -26,7 +26,14 @@
 	  "tool"
   ],
   "dependencies": {
- },
+  },
+  "samples": [
+    {
+      "displayName": "Functional Example",
+      "description": "A small sample to demonstrate the abilities of the package.",
+      "path": "Samples~/Demo1"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Studio-23-xyz/ButtonIconResourceManager.git"
