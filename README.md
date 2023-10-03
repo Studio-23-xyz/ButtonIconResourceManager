@@ -12,13 +12,11 @@ Key Icon Manager is a Unity library that simplifies the management of button ico
 
 ## Installation
 
-To use Key Icon Manager in your Unity project, follow these steps:
-
-1. Clone or download this repository to your computer.
-
-2. Copy the `Assets` folder from the repository into your Unity project's root directory.
-
-3. Ensure that you have the necessary folder structure in your project's `Resources` folder for storing key icons. You should have folders named `PlayStation` and `Xbox` containing your key icon assets (e.g., `.png` or `.asset` files).
+### Install via Git URL
+You can also use the "Install from Git URL" option from Unity Package Manager to install the package.
+```
+https://github.com/Studio-23-xyz/Better-Cursor-Manager.git#upm
+```
 
 ## Usage
 
