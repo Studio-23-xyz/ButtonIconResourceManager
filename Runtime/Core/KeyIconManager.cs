@@ -1,7 +1,7 @@
-using com.studio23.ss2.buttoniconresourcemanager.Data;
+using Studio23.SS2.ButtonIconResourceManager.Data;
 using UnityEngine;
 
-namespace com.studio23.ss2.buttoniconresourcemanager.core
+namespace Studio23.SS2.ButtonIconResourceManager.core
 {
 	public class KeyIconManager : MonoBehaviour
 	{
