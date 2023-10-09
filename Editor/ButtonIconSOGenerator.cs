@@ -10,8 +10,8 @@ namespace Studio23.SS2.ButtonIconResourceManager.Editor
 		[MenuItem("Studio-23/Button Icon Resource Manager/Create ButtonIcon Objects")]
 		public static void CreateButtonSOs()
 		{
-			string xboxFolderPath = "Icons/Xbox";
-			string playstationFolderPath = "Icons/PS";
+			string xboxFolderPath = "ButtonIcons/Xbox";
+			string playstationFolderPath = "ButtonIcons/PS";
 
 			Sprite[] xboxSprites = Resources.LoadAll<Sprite>($"{xboxFolderPath}");
 			Sprite[] psSprites = Resources.LoadAll<Sprite>($"{playstationFolderPath}");
