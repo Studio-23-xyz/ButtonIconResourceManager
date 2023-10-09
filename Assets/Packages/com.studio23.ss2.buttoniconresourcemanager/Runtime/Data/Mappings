@@ -1,0 +1,47 @@
+using UnityEngine;
+
+namespace Studio23.SS2.ButtonIconResourceManager.Data
+{
+	
+	internal class KeyMappings
+	{
+		
+		private Dictionary<Buttons,string> KeyMappings;
+
+		public void KeyMappings()
+		{
+			KeyMappings=new Dictionary<Buttons,string>();
+
+            KeyMappings[BUTTON_EAST]="buttonEast";
+            KeyMappings[BUTTON_WEST]="buttonWest";
+            KeyMappings[BUTTON_NORTH]="buttonNorth";
+            KeyMappings[BUTTON_SOUTH]="buttonSouth";
+
+            KeyMappings[DPAD]="dpad";
+            KeyMappings[DPAD_UP]="dpadUp";
+            KeyMappings[DPAD_RIGHT]="dpadRight";
+            KeyMappings[DPAD_DOWN]="dpadDown";
+            KeyMappings[DPAD_LEFT]="dpadLeft";
+
+            KeyMappings[LEFT_SHOULDER]="leftShoulder";
+            KeyMappings[LEFT_TRIGGER]="leftTrigger";
+            KeyMappings[LEFT_STICK]="leftStick";
+            KeyMappings[LEFT_STICK_PRESS]="leftStickPress";
+
+            KeyMappings[RIGHT_SHOULDER]="righttShoulder";
+            KeyMappings[RIGHT_TRIGGER]="righttTrigger";
+            KeyMappings[RIGHT_STICK]="rightStick";
+            KeyMappings[RIGHT_STICK_PRESS]="rightStickPress";
+
+            KeyMappings[SELECT]="startButton";
+            KeyMappings[START]="selectButton";
+
+
+		}
+
+		public string GetControlPath(Buttons button)
+		{
+			return KeyMappings[button];
+		}
+	}
+}

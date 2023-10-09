@@ -18,13 +18,13 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 			ControlPath = controlPath;
 		}
 
-		public Sprite GetIcon(string platform)
+		public Sprite GetIcon(Platform platform)
 		{
 			switch (platform)
 			{
-				case "Xbox":
+				case Platform.XBOX:
 					return _xboxIcon;
-				case "Playstation":
+				case Platform.PLAYSTATION:
 					return _playstationIcon;
 				default:
 					return null;

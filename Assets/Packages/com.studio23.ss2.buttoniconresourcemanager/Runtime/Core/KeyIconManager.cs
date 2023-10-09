@@ -26,9 +26,9 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			}
 		}
 
-		public Sprite GetIcon(string platformName, string controlPath)
+		public Sprite GetIcon(Platform platformName, Buttons button)
 		{
-			string path = $"KeyIcons/{controlPath}";
+			string path = $"KeyIcons/{new KeyMappings().GetControlPath(button)}";
 
 			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
 			if (keyIcons != null)
