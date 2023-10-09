@@ -36,4 +36,12 @@ public class SpriteRetrievalCheck
 		Assert.AreEqual("rightShoulder", retrievedIcon.name);
 		yield return null;
 	}
+
+	[UnityTest]
+	public IEnumerator _Xbox_Btn_Right_Stick_Press_Retrieval_Test_01_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("Xbox", "rightStickPress");
+		Assert.AreEqual("rightStickPress", retrievedIcon.name);
+		yield return null;
+	}
 }
