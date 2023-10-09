@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.2...v1.0.3) (2023-10-09)
+### Added
+
+* Added sprites for leftStickPress & rightStickPress for both Xbox & Playstation.
+
+### Updates 
+
+* Updated README.md to better understand the package usage. 
+
 ## [1.0.2](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.1...v1.0.2) (2023-10-03)
 ### Bug Fixes
 

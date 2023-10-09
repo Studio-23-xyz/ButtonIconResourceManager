@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Studio23.SS2.ButtonIconResourceManager.Data
 {
-	[CreateAssetMenu(fileName = "KeyIcons-{KeyName}", menuName = "Studio 23/Button Icon Resource Manager/Key Icons")]
+	[CreateAssetMenu(fileName = "KeyIcons-{KeyName}", menuName = "Studio-23/Button Icon Resource Manager/Key Icons")]
 	public class KeyIcons : ScriptableObject
 	{
 		[SerializeField]

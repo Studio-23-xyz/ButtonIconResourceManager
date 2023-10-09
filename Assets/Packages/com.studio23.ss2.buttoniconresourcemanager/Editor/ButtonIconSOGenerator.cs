@@ -7,7 +7,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.Editor
 {
 	public class ButtonIconSOGenerator : EditorWindow
 	{
-		[MenuItem("Window/Studio 23/ Button Icon Resource Manager/Create Button Scriptable Objects")]
+		[MenuItem("Studio-23/Button Icon Resource Manager/Create ButtonIcon Objects")]
 		public static void CreateButtonSOs()
 		{
 			string xboxFolderPath = "Icons/Xbox";
