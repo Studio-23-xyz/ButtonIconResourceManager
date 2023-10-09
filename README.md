@@ -19,7 +19,9 @@ https://github.com/Studio-23-xyz/ButtonIconResourceManager.git#upm
 
 ## Usage
 
-Ensure that you have the necessary folder structure in your project's `Resources` folder for storing key icons. You should have folders named `Playstation` and `Xbox` containing your key icon assets (e.g., `.png` or `.asset` files).
+Ensure that you have the necessary folder structure in your project's `Resources` folder for storing key icons. You should have folders named `PS` and `Xbox` containing your key icon assets (e.g., `.png` or `.asset` files). The hierarchy should look like this, 
+
+`Assets\Resources\ButtonIcons\Xbox\` & `Assets\Resources\ButtonIcons\PS\`
 
 Now you need to create the Assets that will hold the key-control path name and the icons related to it. To do so, find the Studio-23 tab on the top bar and go to, 
 `Studio-23 > Button Icon Resource Manager > Create ButtonIcon Objects`

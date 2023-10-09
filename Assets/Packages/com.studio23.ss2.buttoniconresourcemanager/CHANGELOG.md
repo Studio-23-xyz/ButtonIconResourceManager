@@ -1,3 +1,8 @@
+## [1.0.4](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.3...v1.0.4) (2023-10-09)
+### Fixed
+
+* Fixed naming inconsistencies that led to certain fail states. 
+
 ## [1.0.3](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.2...v1.0.3) (2023-10-09)
 ### Added
 
