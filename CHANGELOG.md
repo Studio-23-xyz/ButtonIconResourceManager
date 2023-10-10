@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.4...v2.0.0) (2023-10-10)
+### Changed
+
+* Added enumerations for platform and button selection. 
+* Old GetIcon function signature will not work anymore. You will have to pass in Platform and Button enum to the function. 
+
+### Fixed
+
+* Fixed some typos in the sprite and asset name. 
+
 ## [1.0.4](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.3...v1.0.4) (2023-10-09)
 ### Fixed
 
