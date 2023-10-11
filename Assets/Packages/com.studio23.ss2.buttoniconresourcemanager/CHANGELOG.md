@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.0...v2.0.1) (2023-10-11)
+### Added 
+
+* Added function override to retain sprite retrieval with string based deviceLayout and controlPath parameters.
+* Added test cases for override function.
+
 ## [2.0.0](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v1.0.4...v2.0.0) (2023-10-10)
 ### Changed
 

@@ -44,11 +44,15 @@ This will generate icon holder assets for all the icon sprites found in the Reso
 
 2. **Retrieve Button Icons**:
 
-   Use the `GetIcon` method from the `KeyIconManager` to retrieve button icons based on the platform and control path. Pass the platform name and control path as parameters. The function signature is, 
+   Use the `GetIcon` method from the `KeyIconManager` to retrieve button icons based on the platform and control path. Pass the platform name and control path as parameters. The function has two signatures, 
 
    ```csharp
-        public Sprite GetIcon(Platform platformName, Buttons button)
+    public Sprite GetIcon(Platform platformName, Buttons button)
+
+    public Sprite GetIcon(string platformName, string controlPath)
    ```
+
+Both functions can be interchangeably however the it depends on how you are using the input system. As Unity Input System innately has a function `InputAction.GetBindingDisplayString` which has an override which returns the `deviceLayoutName` and the `controlPath` for the targeted `InputAction`. Using this function is helpful if you are providing rebinding feature in the game as the binding display string will be dynamically updated when binding overrides are there. 
 
    An example usage scenario is given below. 
 
@@ -65,11 +69,17 @@ This will generate icon holder assets for all the icon sprites found in the Reso
            {
                // Use the buttonIcon as needed.
            }
+
+           Sprite buttonIconStringBased = KeyIconManager.Instance.GetIcon(deviceLayout, controlPath); //deviceLayout & controlPath are string variables.
+           if (buttonIconStringBased != null)
+           {
+               // Use the buttonIconStringBased as needed.
+           }
        }
    }
    ```
 
-You can take a peek at the Buttons enums from [here](Runtime/Data/Mappings.cs)
+You can take a peek at the Buttons enums as well as the control path strings for controller buttons from [here](https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/Runtime/Data/Mappings.cs). Alternatively, you can also get the control paths for a particular binding from the `InputActionAsset` interface. 
 
 ## License
 
