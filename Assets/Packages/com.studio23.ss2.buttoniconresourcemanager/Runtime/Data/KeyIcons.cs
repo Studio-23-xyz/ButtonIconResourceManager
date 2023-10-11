@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Studio23.SS2.ButtonIconResourceManager.Data
@@ -25,6 +26,19 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 				case Platform.XBOX:
 					return _xboxIcon;
 				case Platform.PLAYSTATION:
+					return _playstationIcon;
+				default:
+					return null;
+			}
+		}
+
+		public Sprite GetIcon(string platformName)
+		{
+			switch (platformName)
+			{
+				case "Xbox":
+					return _xboxIcon;
+				case "Playstation":
 					return _playstationIcon;
 				default:
 					return null;

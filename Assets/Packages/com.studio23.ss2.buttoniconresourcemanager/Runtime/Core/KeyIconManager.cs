@@ -39,5 +39,18 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			Debug.LogWarning($"Key icon not found for path: {path}");
 			return null;
 		}
+
+		public Sprite GetIcon(string platformName, string controlPath)
+		{
+			string path = $"KeyIcons/{controlPath}";
+
+			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
+			if (keyIcons != null)
+			{
+				return keyIcons.GetIcon(platformName);
+			}
+			Debug.LogWarning($"Key icon not found for platform {platformName} & control path {controlPath}");
+			return null;
+		}
 	}
 }
