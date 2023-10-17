@@ -14,8 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - /Assets/Packages/com.studio23.ss2.buttoniconresourcemanager
-        unityVersion: ['2020.3.15f1'] # some version must be included for package testing
+          - ./Assets/Packages/com.studio23.ss2.buttoniconresourcemanager
+        unityVersion: ['2020.3.15f1'] 
         testMode:
           - playmode
           - editmode
