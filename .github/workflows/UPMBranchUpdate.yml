@@ -16,9 +16,13 @@ jobs:
     - name: Git Subtree Split
       run: git subtree split -P Assets/Packages/com.studio23.ss2.buttoniconresourcemanager -b upm
       
+    - name: Find package.json
+      id: find-package-json
+      run: echo ::set-output name=package-json-path::$(find . -name "package.json" | head -n 1)
+
     - name: Get Version from package.json
       id: get-version
-      run: echo ::set-output name=version::$(jq -r .version package.json)
+      run: echo ::set-output name=version::$(jq -r .version ${{ steps.find-package-json.outputs.package-json-path }})
 
     - name: Create Git Tag
       if: steps.get-version.outputs.version != ''
