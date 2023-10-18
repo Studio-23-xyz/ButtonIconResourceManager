@@ -1,0 +1,240 @@
+{
+  "sitemap": {
+    "baseUrl": "https://studio-23-xyz.github.io/ButtonIconResourceManager/"
+  },
+  "source_base_path": "/home/runner/work/ButtonIconResourceManager/ButtonIconResourceManager/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CheckForAssetValidity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CheckForAssetValidity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SpriteRetrievalCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SpriteRetrievalCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

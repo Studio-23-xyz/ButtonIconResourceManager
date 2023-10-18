@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Button Icon Resource Manager |  |  </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Button Icon Resource Manager |  |  ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/main/Documentation~/manual/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 align="center">Button Icon Resource Manager</h1>
+
+<p align="center">
+<a href="https://openupm.com/packages/com.studio23.ss2.buttoniconresourcemanager/"><img src="https://img.shields.io/npm/v/com.studio23.ss2.buttoniconresourcemanager?label=openupm&amp;registry_uri=https://package.openupm.com"></a>
+</p>
+<p>Button Icon Resource Manager is a Unity library that simplifies the management of button icons for Xbox and Playstation controllers. It uses the ControlPath formatting that the Unity Input System uses for seamless integration. It will continue to function as expected even after you rebind your original controls!</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a>
+<ul>
+<li><a href="#settings-up-icon-assets">Setting up Icon Assets</a></li>
+<li><a href="#using-keyiconmanager">Using KeyIconManager</a></li>
+</ul>
+</li>
+<li><a href="#license">License</a></li>
+</ol>
+<h2 id="installation">Installation</h2>
+<h3 id="install-via-git-url">Install via Git URL</h3>
+<p>You can also use the &quot;Install from Git URL&quot; option from Unity Package Manager to install the package.</p>
+<pre><code>https://github.com/Studio-23-xyz/ButtonIconResourceManager.git#upm
+</code></pre>
+<h2 id="usage">Usage</h2>
+<h3 id="setting-up-icon-assets">Setting up Icon Assets</h3>
+<p>The package comes with scriptable objects set for the 19 default buttons for Xbox and Playstation controller. If you want to use different icons or want to regenerate the assets yourself, you can follow the steps below to do so.</p>
+<p>Ensure that you have the necessary folder structure in your project's <code>Resources</code> folder for storing key icons. You should have folders named <code>PS</code> and <code>Xbox</code> containing your key icon assets (e.g., <code>.png</code> or <code>.asset</code> files). The hierarchy should look like this,</p>
+<p><code>Assets\Resources\ButtonIcons\Xbox\</code> &amp; <code>Assets\Resources\ButtonIcons\PS\</code></p>
+<p>Now you need to create the Assets that will hold the key-control path name and the icons related to it. To do so, find the Studio-23 tab on the top bar and go to,
+<code>Studio-23 &gt; Button Icon Resource Manager &gt; Create ButtonIcon Objects</code>
+This will generate icon holder assets for all the icon sprites found in the Resources directory. You can see these scriptable objects inside <code>Assets\Resources\KeyIcons</code> folder.</p>
+<h3 id="using-keyiconmanager">Using KeyIconManager</h3>
+<ol>
+<li><p><strong>Accessing Key Icon Manager</strong>:</p>
+<p>You don't have to attach the KeyIconManager to any gameobject as it will be self-instantiated when called upon. Simply call <code>KeyIconManager.Instance</code> to use the functionalities.</p>
+</li>
+<li><p><strong>Retrieve Button Icons</strong>:</p>
+<p>Use the <code>GetIcon</code> method from the <code>KeyIconManager</code> to retrieve button icons based on the platform and control path. Pass the platform name and control path as parameters. The function has two signatures,</p>
+<pre><code class="lang-csharp"> public Sprite GetIcon(Platform platformName, Buttons button)
+
+ public Sprite GetIcon(string platformName, string controlPath)
+</code></pre>
+</li>
+</ol>
+<p>Both functions can be interchangeably however the it depends on how you are using the input system. As Unity Input System innately has a function <code>InputAction.GetBindingDisplayString</code> which has an override which returns the <code>deviceLayoutName</code> and the <code>controlPath</code> for the targeted <code>InputAction</code>. Using this function is helpful if you are providing rebinding feature in the game as the binding display string will be dynamically updated when binding overrides are there.</p>
+<p>An example usage scenario is given below.</p>
+<pre><code class="lang-csharp">using UnityEngine;
+
+public class ExampleUsage : MonoBehaviour
+{
+    void Start()
+    {
+        // Replace &quot;Platform.PLAYSTATION&quot; and &quot;Buttons.BUTTON_SOUTH&quot; with your platform and control path.
+        Sprite buttonIcon = KeyIconManager.Instance.GetIcon(Platform.PLAYSTATION, Buttons.BUTTON_SOUTH);
+        if (buttonIcon != null)
+        {
+            // Use the buttonIcon as needed.
+        }
+
+        Sprite buttonIconStringBased = KeyIconManager.Instance.GetIcon(deviceLayout, controlPath); //deviceLayout &amp; controlPath are string variables.
+        if (buttonIconStringBased != null)
+        {
+            // Use the buttonIconStringBased as needed.
+        }
+    }
+}
+</code></pre>
+<p>You can take a peek at the Buttons enums as well as the control path strings for controller buttons from <a href="https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/Runtime/Data/Mappings.cs">here</a>. Alternatively, you can also get the control paths for a particular binding from the <code>InputActionAsset</code> interface.</p>
+<h2 id="icons-reference">Icons Reference</h2>
+<p>The icons used in the sample are taken from <a href="https://assetstore.unity.com/packages/2d/gui/icons/controller-icon-pack-128505">Controller Icon Pack</a> created by <a href="https://assetstore.unity.com/publishers/35534">NullSave</a></p>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/main/Documentation~/manual/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/Studio-23-xyz" target="_blank">Studio-23-xyz</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

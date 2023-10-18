@@ -1,0 +1,82 @@
+{
+  "api/Global.CheckForAssetValidity.html": {
+    "href": "api/Global.CheckForAssetValidity.html",
+    "title": "Class CheckForAssetValidity | |",
+    "keywords": "Class CheckForAssetValidity Namespace Global public class CheckForAssetValidity Inheritance object CheckForAssetValidity Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods _Check_For_19_KeyIcon_Asset_Exists_In_Directory_() public void _Check_For_19_KeyIcon_Asset_Exists_In_Directory_() _Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_() public void _Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_()"
+  },
+  "api/Global.SpriteRetrievalCheck.html": {
+    "href": "api/Global.SpriteRetrievalCheck.html",
+    "title": "Class SpriteRetrievalCheck | |",
+    "keywords": "Class SpriteRetrievalCheck Namespace Global public class SpriteRetrievalCheck Inheritance object SpriteRetrievalCheck Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods _PS_Btn_South_Retrieval_Test_01_() public IEnumerator _PS_Btn_South_Retrieval_Test_01_() Returns IEnumerator _PS_Right_Shoulder_Retrieval_Test_01_() public IEnumerator _PS_Right_Shoulder_Retrieval_Test_01_() Returns IEnumerator _String_Based_Retrieval_ButtonNorth_Xbox_() public IEnumerator _String_Based_Retrieval_ButtonNorth_Xbox_() Returns IEnumerator _String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_() public IEnumerator _String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_() Returns IEnumerator _Xbox_Btn_South_Retrieval_Test_01_() public IEnumerator _Xbox_Btn_South_Retrieval_Test_01_() Returns IEnumerator _Xbox_Right_Shoulder_Retrieval_Test_01_() public IEnumerator _Xbox_Right_Shoulder_Retrieval_Test_01_() Returns IEnumerator"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | |",
+    "keywords": "Namespace Classes CheckForAssetValidity SpriteRetrievalCheck"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html",
+    "title": "Enum Buttons | |",
+    "keywords": "Enum Buttons Namespace Studio23.SS2.ButtonIconResourceManager.Data public enum Buttons Fields BUTTON_EAST = 0 BUTTON_NORTH = 2 BUTTON_SOUTH = 3 BUTTON_WEST = 1 DPAD = 4 DPAD_DOWN = 7 DPAD_LEFT = 8 DPAD_RIGHT = 6 DPAD_UP = 5 HOME = 19 LEFT_SHOULDER = 9 LEFT_STICK = 11 LEFT_STICK_PRESS = 12 LEFT_TRIGGER = 10 RIGHT_SHOULDER = 13 RIGHT_STICK = 15 RIGHT_STICK_PRESS = 16 RIGHT_TRIGGER = 14 SELECT = 17 START = 18"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html",
+    "title": "Class KeyIcons | |",
+    "keywords": "Class KeyIcons Namespace Studio23.SS2.ButtonIconResourceManager.Data public class KeyIcons : ScriptableObject Inheritance object KeyIcons Fields ControlPath public string ControlPath Field Value string Methods GetIcon(Platform) public Sprite GetIcon(Platform platform) Parameters platform Platform Returns Sprite GetIcon(string) public Sprite GetIcon(string platformName) Parameters platformName string Returns Sprite Initialize(Sprite, Sprite, string) public void Initialize(Sprite xboxIcon, Sprite playstationIcon, string controlPath) Parameters xboxIcon Sprite playstationIcon Sprite controlPath string"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html",
+    "title": "Enum Platform | |",
+    "keywords": "Enum Platform Namespace Studio23.SS2.ButtonIconResourceManager.Data public enum Platform Fields PLAYSTATION = 1 XBOX = 0"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.html",
+    "title": "Namespace Studio23.SS2.ButtonIconResourceManager.Data | |",
+    "keywords": "Namespace Studio23.SS2.ButtonIconResourceManager.Data Classes KeyIcons Enums Buttons Platform"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html",
+    "title": "Class ButtonIconSOGenerator | |",
+    "keywords": "Class ButtonIconSOGenerator Namespace Studio23.SS2.ButtonIconResourceManager.Editor public class ButtonIconSOGenerator : EditorWindow Inheritance object ButtonIconSOGenerator Methods CreateButtonSOs() public static void CreateButtonSOs()"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Editor.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Editor.html",
+    "title": "Namespace Studio23.SS2.ButtonIconResourceManager.Editor | |",
+    "keywords": "Namespace Studio23.SS2.ButtonIconResourceManager.Editor Classes ButtonIconSOGenerator"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html",
+    "title": "Class KeyIconManager | |",
+    "keywords": "Class KeyIconManager Namespace Studio23.SS2.ButtonIconResourceManager.core public class KeyIconManager : MonoBehaviour Inheritance object KeyIconManager Properties Instance public static KeyIconManager Instance { get; } Property Value KeyIconManager Methods GetIcon(Platform, Buttons) Retrieves the sprite associated with the given platform enum and button enum. This can be used if you want to show a button arbitrarily without counting for rebinds. public Sprite GetIcon(Platform platformName, Buttons button) Parameters platformName Platform The controller layout to use. button Buttons Name of the button icon to retrieve Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button. GetIcon(string, string) If you want to account for potential rebinds of a button and want to update the button icon dynamically when it has been rebinded, use this method. public Sprite GetIcon(string platformName, string controlPath) Parameters platformName string String formatted name of the platform. This dictates which layout to use. controlPath string Button name in string format which is set accordingly by the Input System. Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button."
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.core.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.core.html",
+    "title": "Namespace Studio23.SS2.ButtonIconResourceManager.core | |",
+    "keywords": "Namespace Studio23.SS2.ButtonIconResourceManager.core Classes KeyIconManager"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "2.0.1 (2023-10-11) | |",
+    "keywords": "2.0.1 (2023-10-11) Added Added function override to retain sprite retrieval with string based deviceLayout and controlPath parameters. Added test cases for override function. 2.0.0 (2023-10-10) Changed Added enumerations for platform and button selection. Old GetIcon function signature will not work anymore. You will have to pass in Platform and Button enum to the function. Fixed Fixed some typos in the sprite and asset name. 1.0.4 (2023-10-09) Fixed Fixed naming inconsistencies that led to certain fail states. 1.0.3 (2023-10-09) Added Added sprites for leftStickPress & rightStickPress for both Xbox & Playstation. Updates Updated README.md to better understand the package usage. 1.0.2 (2023-10-03) Bug Fixes Placed all scripts under appropriate namsepaces. Fixed an issue with Editor Assembly Definition. 1.0.1 (2023-10-03) Bug Fixes Fixed minor bugs. 1.0.0 Initial submission for package distribution."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| |",
+    "keywords": "MIT License Copyright (c) 2023 Md. Nurusshafi Evan Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Button Icon Resource Manager | |",
+    "keywords": "Button Icon Resource Manager Button Icon Resource Manager is a Unity library that simplifies the management of button icons for Xbox and Playstation controllers. It uses the ControlPath formatting that the Unity Input System uses for seamless integration. It will continue to function as expected even after you rebind your original controls! Table of Contents Installation Usage Setting up Icon Assets Using KeyIconManager License Installation Install via Git URL You can also use the \"Install from Git URL\" option from Unity Package Manager to install the package. https://github.com/Studio-23-xyz/ButtonIconResourceManager.git#upm Usage Setting up Icon Assets The package comes with scriptable objects set for the 19 default buttons for Xbox and Playstation controller. If you want to use different icons or want to regenerate the assets yourself, you can follow the steps below to do so. Ensure that you have the necessary folder structure in your project's Resources folder for storing key icons. You should have folders named PS and Xbox containing your key icon assets (e.g., .png or .asset files). The hierarchy should look like this, Assets\\Resources\\ButtonIcons\\Xbox\\ & Assets\\Resources\\ButtonIcons\\PS\\ Now you need to create the Assets that will hold the key-control path name and the icons related to it. To do so, find the Studio-23 tab on the top bar and go to, Studio-23 > Button Icon Resource Manager > Create ButtonIcon Objects This will generate icon holder assets for all the icon sprites found in the Resources directory. You can see these scriptable objects inside Assets\\Resources\\KeyIcons folder. Using KeyIconManager Accessing Key Icon Manager: You don't have to attach the KeyIconManager to any gameobject as it will be self-instantiated when called upon. Simply call KeyIconManager.Instance to use the functionalities. Retrieve Button Icons: Use the GetIcon method from the KeyIconManager to retrieve button icons based on the platform and control path. Pass the platform name and control path as parameters. The function has two signatures, public Sprite GetIcon(Platform platformName, Buttons button) public Sprite GetIcon(string platformName, string controlPath) Both functions can be interchangeably however the it depends on how you are using the input system. As Unity Input System innately has a function InputAction.GetBindingDisplayString which has an override which returns the deviceLayoutName and the controlPath for the targeted InputAction. Using this function is helpful if you are providing rebinding feature in the game as the binding display string will be dynamically updated when binding overrides are there. An example usage scenario is given below. using UnityEngine; public class ExampleUsage : MonoBehaviour { void Start() { // Replace \"Platform.PLAYSTATION\" and \"Buttons.BUTTON_SOUTH\" with your platform and control path. Sprite buttonIcon = KeyIconManager.Instance.GetIcon(Platform.PLAYSTATION, Buttons.BUTTON_SOUTH); if (buttonIcon != null) { // Use the buttonIcon as needed. } Sprite buttonIconStringBased = KeyIconManager.Instance.GetIcon(deviceLayout, controlPath); //deviceLayout & controlPath are string variables. if (buttonIconStringBased != null) { // Use the buttonIconStringBased as needed. } } } You can take a peek at the Buttons enums as well as the control path strings for controller buttons from here. Alternatively, you can also get the control paths for a particular binding from the InputActionAsset interface. Icons Reference The icons used in the sample are taken from Controller Icon Pack created by NullSave"
+  }
+}
