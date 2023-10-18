@@ -81,7 +81,6 @@ Both functions can be interchangeably however the it depends on how you are usin
 
 You can take a peek at the Buttons enums as well as the control path strings for controller buttons from [here](https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/Runtime/Data/Mappings.cs). Alternatively, you can also get the control paths for a particular binding from the `InputActionAsset` interface. 
 
-## License
+## Icons Reference
 
-The icons used in the sample are taken from [Free Prompts Pack v4.0](https://opengameart.org/content/free-keyboard-and-controllers-prompts-pack) created by, and made available to public domain by Nicolae Berbece.
-Icons are licensed under [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+The icons used in the sample are taken from [Controller Icon Pack](https://assetstore.unity.com/packages/2d/gui/icons/controller-icon-pack-128505) created by [NullSave](https://assetstore.unity.com/publishers/35534)
