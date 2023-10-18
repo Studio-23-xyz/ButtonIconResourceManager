@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 021b4371dfcc25a4fa1512573b0cbc2f, type: 3}
-  m_Name: selectButton
+  m_Name: select
   m_EditorClassIdentifier: 
-  _xboxIcon: {fileID: 21300000, guid: bbc827311bec75f48abb800655934961, type: 3}
-  _playstationIcon: {fileID: 21300000, guid: 6924b8c58e0a4244b9749ec55c6a564f, type: 3}
-  ControlPath: selectButton
+  _xboxIcon: {fileID: 21300000, guid: 4850d0ecc0c424142981dff52ddebe97, type: 3}
+  _playstationIcon: {fileID: 21300000, guid: 93b49f7eba87b0e40afad9427c5f6e57, type: 3}
+  ControlPath: select

@@ -26,6 +26,12 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			}
 		}
 
+		/// <summary>
+		/// Retrieves the sprite associated with the given platform enum and button enum. This can be used if you want to show a button arbitrarily without counting for rebinds.
+		/// </summary>
+		/// <param name="platformName">The controller layout to use.</param>
+		/// <param name="button">Name of the button icon to retrieve</param>
+		/// <returns>Returns a sprite of associated with the controller specific to the given platform and button.</returns>
 		public Sprite GetIcon(Platform platformName, Buttons button)
 		{
 			string path = $"KeyIcons/{new KeyMappings().GetControlPath(button)}";
@@ -40,6 +46,12 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			return null;
 		}
 
+		/// <summary>
+		/// If you want to account for potential rebinds of a button and want to update the button icon dynamically when it has been rebinded, use this method. 
+		/// </summary>
+		/// <param name="platformName">String formatted name of the platform. This dictates which layout to use.</param>
+		/// <param name="controlPath">Button name in string format which is set accordingly by the Input System.</param>
+		/// <returns>Returns a sprite of associated with the controller specific to the given platform and button.</returns>
 		public Sprite GetIcon(string platformName, string controlPath)
 		{
 			string path = $"KeyIcons/{controlPath}";
