@@ -19,7 +19,7 @@ jobs:
 
     - name: Get Package Name from package.json
       id: get-package-name
-      run: echo ::set-output name=package-name::$(jq -r .name ${{ steps.find-package-json.outputs.package-json-path }})
+      run: echo ::set-output name=name::$(jq -r .name ${{ steps.find-package-json.outputs.package-json-path }})
 
     - name: Git Subtree Split
       run: git subtree split -P Assets/Packages/${{ steps.get-package-name }}/ -b upm
