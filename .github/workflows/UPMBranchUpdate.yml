@@ -1,0 +1,30 @@
+name: Update and Publish UPM Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-and-tag:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Git Subtree Split
+      run: git subtree split -P Assets/Packages/com.studio23.ss2.buttoniconresourcemanager -b upm
+      
+    - name: Get Version from package.json
+      id: get-version
+      run: echo ::set-output name=version::$(jq -r .version package.json)
+
+    - name: Create Git Tag
+      if: steps.get-version.outputs.version != ''
+      run: git tag v${{ steps.get-version.outputs.version }} upm
+
+    - name: Push Branch and Tags
+      run: |
+        git push -u origin upm
+        git push --tags
