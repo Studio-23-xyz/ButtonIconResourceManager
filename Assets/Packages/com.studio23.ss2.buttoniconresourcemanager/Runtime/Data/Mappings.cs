@@ -31,8 +31,8 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 			KeyControlPathMap[Buttons.RIGHT_STICK] = "rightStick";
 			KeyControlPathMap[Buttons.RIGHT_STICK_PRESS] = "rightStickPress";
 
-			KeyControlPathMap[Buttons.SELECT] = "startButton";
-			KeyControlPathMap[Buttons.START] = "selectButton";
+			KeyControlPathMap[Buttons.SELECT] = "select";
+			KeyControlPathMap[Buttons.START] = "start";
 		}
 
 		public string GetControlPath(Buttons button)

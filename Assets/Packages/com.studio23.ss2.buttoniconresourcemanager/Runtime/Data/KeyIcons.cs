@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Studio23.SS2.ButtonIconResourceManager.Data
@@ -34,15 +33,13 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 
 		public Sprite GetIcon(string platformName)
 		{
-			switch (platformName)
-			{
-				case "Xbox":
-					return _xboxIcon;
-				case "Playstation":
-					return _playstationIcon;
-				default:
-					return null;
-			}
+			string platform = platformName.ToLower();
+			if (platform.Contains("playstation") || platform.Contains("dual"))
+				return _playstationIcon;
+			else if (platform.Contains("xbox") || platform.Contains("xinput") || platform.Contains("gamepad"))
+				return _xboxIcon;
+			else
+				return null;
 		}
 	}
 }
