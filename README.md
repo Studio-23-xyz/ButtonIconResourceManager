@@ -79,6 +79,8 @@ Both functions can be interchangeably however the it depends on how you are usin
    }
    ```
 
+`deviceLayout` parameter is versatile and can be either the control scheme name you set in InputActionAsset or the Device Layout name (ie. `XInputController`, `DualShockGamepad`). 
+
 You can take a peek at the Buttons enums as well as the control path strings for controller buttons from [here](https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/Runtime/Data/Mappings.cs). Alternatively, you can also get the control paths for a particular binding from the `InputActionAsset` interface. 
 
 ## Icons Reference

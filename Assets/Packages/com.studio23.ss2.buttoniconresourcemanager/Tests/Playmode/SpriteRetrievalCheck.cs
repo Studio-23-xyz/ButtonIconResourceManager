@@ -53,4 +53,28 @@ public class SpriteRetrievalCheck
 		Assert.AreEqual("buttonNorth", retrievedIcon.name);
 		yield return null;
 	}
+
+	[UnityTest]
+	public IEnumerator _String_Based_Retrieval_Xinput_Device_Layout_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("XInput", "buttonNorth");
+		Assert.AreEqual("buttonNorth", retrievedIcon.name);
+		yield return null;
+	}
+
+	[UnityTest]
+	public IEnumerator _String_Based_Retrieval_DualShock_Device_Layout_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("dual", "buttonNorth");
+		Assert.AreEqual("buttonNorth", retrievedIcon.name);
+		yield return null;
+	}
+
+	[UnityTest]
+	public IEnumerator _String_Based_Retrieval_playstation_Device_Layout_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("plaYstation", "buttonNorth");
+		Assert.AreEqual("buttonNorth", retrievedIcon.name);
+		yield return null;
+	}
 }
