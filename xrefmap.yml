@@ -81,6 +81,45 @@ references:
   isSpec: "True"
   fullName: SpriteRetrievalCheck._String_Based_Retrieval_ButtonNorth_Xbox_
   nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_ButtonNorth_Xbox_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+  name: _String_Based_Retrieval_DualShock_Device_Layout_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_DualShock_Device_Layout_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_*
+  name: _String_Based_Retrieval_DualShock_Device_Layout_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_DualShock_Device_Layout__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
+  name: _String_Based_Retrieval_Xinput_Device_Layout_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xinput_Device_Layout_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_*
+  name: _String_Based_Retrieval_Xinput_Device_Layout_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xinput_Device_Layout__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_
+  name: _String_Based_Retrieval_playstation_Device_Layout_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_playstation_Device_Layout_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_*
+  name: _String_Based_Retrieval_playstation_Device_Layout_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_playstation_Device_Layout__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_playstation_Device_Layout_
 - uid: Global.SpriteRetrievalCheck._String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_
   name: _String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_()
   href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_

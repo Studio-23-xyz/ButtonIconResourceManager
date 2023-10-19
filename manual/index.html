@@ -29,11 +29,7 @@
       <meta name="loc:copy" content="Copy">
   </head>
 
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -153,16 +149,18 @@ public class ExampleUsage : MonoBehaviour
     }
 }
 </code></pre>
+<p><code>deviceLayout</code> parameter is versatile and can be either the control scheme name you set in InputActionAsset or the Device Layout name (ie. <code>XInputController</code>, <code>DualShockGamepad</code>).</p>
 <p>You can take a peek at the Buttons enums as well as the control path strings for controller buttons from <a href="https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/Runtime/Data/Mappings.cs">here</a>. Alternatively, you can also get the control paths for a particular binding from the <code>InputActionAsset</code> interface.</p>
 <h2 id="icons-reference">Icons Reference</h2>
 <p>The icons used in the sample are taken from <a href="https://assetstore.unity.com/packages/2d/gui/icons/controller-icon-pack-128505">Controller Icon Pack</a> created by <a href="https://assetstore.unity.com/publishers/35534">NullSave</a></p>
+
 </article>
 
         <div class="contribution d-print-none">
           <a href="https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/main/Documentation~/manual/index.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
