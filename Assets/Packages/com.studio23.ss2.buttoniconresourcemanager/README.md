@@ -85,4 +85,4 @@ You can take a peek at the Buttons enums as well as the control path strings for
 
 ## Icons Reference
 
-The icons used in the sample are taken from [Controller Icon Pack](https://assetstore.unity.com/packages/2d/gui/icons/controller-icon-pack-128505) created by [NullSave](https://assetstore.unity.com/publishers/35534)
+The icons used in the package are taken from [Xbox Buttons](https://arks.itch.io/xbox-buttons) & [PS4 Button](https://arks.itch.io/ps4-buttons) created by [Arks](https://arks.itch.io/)
