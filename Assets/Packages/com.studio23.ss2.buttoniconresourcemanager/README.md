@@ -10,6 +10,7 @@ Button Icon Resource Manager is a Unity library that simplifies the management o
 1. [Installation](#installation)
 2. [Usage](#usage)
     - [Setting up Icon Assets](#settings-up-icon-assets)
+    - [Using Preset Icon Assets](#using-preset-icon-assets)
     - [Using KeyIconManager](#using-keyiconmanager)
 3. [License](#license)
 
@@ -26,7 +27,7 @@ https://github.com/Studio-23-xyz/ButtonIconResourceManager.git#upm
 
 ### Setting up Icon Assets
 
-The package comes with scriptable objects set for the 19 default buttons for Xbox and Playstation controller. If you want to use different icons or want to regenerate the assets yourself, you can follow the steps below to do so. 
+The package comes with scriptable objects set for the 28 default buttons for Xbox and Playstation controller. If you want to use different icons or want to regenerate the assets yourself, you can follow the steps below to do so. 
 
 Ensure that you have the necessary folder structure in your project's `Resources` folder for storing key icons. You should have folders named `PS` and `Xbox` containing your key icon assets (e.g., `.png` or `.asset` files). The hierarchy should look like this, 
 
@@ -35,6 +36,10 @@ Ensure that you have the necessary folder structure in your project's `Resources
 Now you need to create the Assets that will hold the key-control path name and the icons related to it. To do so, find the Studio-23 tab on the top bar and go to, 
 `Studio-23 > Button Icon Resource Manager > Create ButtonIcon Objects` 
 This will generate icon holder assets for all the icon sprites found in the Resources directory. You can see these scriptable objects inside `Assets\Resources\KeyIcons` folder.
+
+### Using Preset Icon Assets
+
+Alternatively, if you want to use the icons and assets already provided in the package, simply find the `Button Icon Resource Manager` under packages, and copy the `KeyIcons` folder to your project resources directory. (ie. `Assets/Resources/`. 
 
 ### Using KeyIconManager
 
