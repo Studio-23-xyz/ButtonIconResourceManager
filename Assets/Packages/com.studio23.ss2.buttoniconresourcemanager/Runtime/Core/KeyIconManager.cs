@@ -54,8 +54,8 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 		/// <returns>Returns a sprite of associated with the controller specific to the given platform and button.</returns>
 		public Sprite GetIcon(string platformName, string controlPath)
 		{
-			if (controlPath.Contains('/'))
-				controlPath = controlPath.Replace('/','-');
+			if (controlPath.Contains("/"))
+				controlPath = controlPath.Replace("/","-");
 			string path = $"KeyIcons/{controlPath}";
 
 			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
