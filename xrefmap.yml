@@ -10,32 +10,45 @@ references:
   commentId: T:Global.CheckForAssetValidity
   fullName: CheckForAssetValidity
   nameWithType: CheckForAssetValidity
-- uid: Global.CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-  name: _Check_For_19_KeyIcon_Asset_Exists_In_Directory_()
-  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-  commentId: M:Global.CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-  fullName: CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_()
-  nameWithType: CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_()
-- uid: Global.CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_*
-  name: _Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_19_KeyIcon_Asset_Exists_In_Directory__
-  commentId: Overload:Global.CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_
+- uid: Global.CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+  name: _Check_For_28_KeyIcon_Asset_Exists_In_Directory_()
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+  commentId: M:Global.CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+  fullName: CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_()
+  nameWithType: CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_()
+- uid: Global.CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_*
+  name: _Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_28_KeyIcon_Asset_Exists_In_Directory__
+  commentId: Overload:Global.CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_
   isSpec: "True"
-  fullName: CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-  nameWithType: CheckForAssetValidity._Check_For_19_KeyIcon_Asset_Exists_In_Directory_
-- uid: Global.CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
-  name: _Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_()
-  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
-  commentId: M:Global.CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
-  fullName: CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_()
-  nameWithType: CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_()
-- uid: Global.CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_*
-  name: _Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
-  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder__
-  commentId: Overload:Global.CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  fullName: CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+  nameWithType: CheckForAssetValidity._Check_For_28_KeyIcon_Asset_Exists_In_Directory_
+- uid: Global.CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  name: _Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_()
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  commentId: M:Global.CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  fullName: CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_()
+  nameWithType: CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_()
+- uid: Global.CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_*
+  name: _Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder__
+  commentId: Overload:Global.CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
   isSpec: "True"
-  fullName: CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
-  nameWithType: CheckForAssetValidity._Check_For_19_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  fullName: CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+  nameWithType: CheckForAssetValidity._Check_For_28_Sprite_Asset_In_ButtonIcons_PS_Folder_
+- uid: Global.CheckForAssetValidity._Check_For_No_Empty_Control_Path_
+  name: _Check_For_No_Empty_Control_Path_()
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_No_Empty_Control_Path_
+  commentId: M:Global.CheckForAssetValidity._Check_For_No_Empty_Control_Path_
+  fullName: CheckForAssetValidity._Check_For_No_Empty_Control_Path_()
+  nameWithType: CheckForAssetValidity._Check_For_No_Empty_Control_Path_()
+- uid: Global.CheckForAssetValidity._Check_For_No_Empty_Control_Path_*
+  name: _Check_For_No_Empty_Control_Path_
+  href: api/Global.CheckForAssetValidity.html#Global_CheckForAssetValidity__Check_For_No_Empty_Control_Path__
+  commentId: Overload:Global.CheckForAssetValidity._Check_For_No_Empty_Control_Path_
+  isSpec: "True"
+  fullName: CheckForAssetValidity._Check_For_No_Empty_Control_Path_
+  nameWithType: CheckForAssetValidity._Check_For_No_Empty_Control_Path_
 - uid: Global.SpriteRetrievalCheck
   name: SpriteRetrievalCheck
   href: api/Global.SpriteRetrievalCheck.html
@@ -94,6 +107,45 @@ references:
   isSpec: "True"
   fullName: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
   nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_DualShock_Device_Layout_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_
+  name: _String_Based_Retrieval_Playstation_Dpad_Down_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Playstation_Dpad_Down_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_*
+  name: _String_Based_Retrieval_Playstation_Dpad_Down_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Playstation_Dpad_Down__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Playstation_Dpad_Down_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_
+  name: _String_Based_Retrieval_Xbox_Left_Stick_Right_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xbox_Left_Stick_Right_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_*
+  name: _String_Based_Retrieval_Xbox_Left_Stick_Right_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xbox_Left_Stick_Right__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Left_Stick_Right_
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_
+  name: _String_Based_Retrieval_Xbox_Right_Stick_Up_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xbox_Right_Stick_Up_
+  commentId: M:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_()
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_()
+- uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_*
+  name: _String_Based_Retrieval_Xbox_Right_Stick_Up_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xbox_Right_Stick_Up__
+  commentId: Overload:Global.SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_
+  nameWithType: SpriteRetrievalCheck._String_Based_Retrieval_Xbox_Right_Stick_Up_
 - uid: Global.SpriteRetrievalCheck._String_Based_Retrieval_Xinput_Device_Layout_
   name: _String_Based_Retrieval_Xinput_Device_Layout_()
   href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__String_Based_Retrieval_Xinput_Device_Layout_
@@ -225,12 +277,12 @@ references:
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.DPAD_UP
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.DPAD_UP
   nameWithType: Buttons.DPAD_UP
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.HOME
-  name: HOME
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_HOME
-  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.HOME
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.HOME
-  nameWithType: Buttons.HOME
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.EXCLUSIVE
+  name: EXCLUSIVE
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_EXCLUSIVE
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.EXCLUSIVE
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.EXCLUSIVE
+  nameWithType: Buttons.EXCLUSIVE
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_SHOULDER
   name: LEFT_SHOULDER
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_SHOULDER
@@ -243,12 +295,36 @@ references:
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK
   nameWithType: Buttons.LEFT_STICK
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_DOWN
+  name: LEFT_STICK_DOWN
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_STICK_DOWN
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_DOWN
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_DOWN
+  nameWithType: Buttons.LEFT_STICK_DOWN
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_LEFT
+  name: LEFT_STICK_LEFT
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_STICK_LEFT
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_LEFT
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_LEFT
+  nameWithType: Buttons.LEFT_STICK_LEFT
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_PRESS
   name: LEFT_STICK_PRESS
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_STICK_PRESS
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_PRESS
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_PRESS
   nameWithType: Buttons.LEFT_STICK_PRESS
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_RIGHT
+  name: LEFT_STICK_RIGHT
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_STICK_RIGHT
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_RIGHT
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_RIGHT
+  nameWithType: Buttons.LEFT_STICK_RIGHT
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_UP
+  name: LEFT_STICK_UP
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_STICK_UP
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_UP
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_STICK_UP
+  nameWithType: Buttons.LEFT_STICK_UP
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.LEFT_TRIGGER
   name: LEFT_TRIGGER
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_LEFT_TRIGGER
@@ -267,12 +343,36 @@ references:
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK
   nameWithType: Buttons.RIGHT_STICK
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_DOWN
+  name: RIGHT_STICK_DOWN
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_STICK_DOWN
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_DOWN
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_DOWN
+  nameWithType: Buttons.RIGHT_STICK_DOWN
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_LEFT
+  name: RIGHT_STICK_LEFT
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_STICK_LEFT
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_LEFT
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_LEFT
+  nameWithType: Buttons.RIGHT_STICK_LEFT
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_PRESS
   name: RIGHT_STICK_PRESS
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_STICK_PRESS
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_PRESS
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_PRESS
   nameWithType: Buttons.RIGHT_STICK_PRESS
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_RIGHT
+  name: RIGHT_STICK_RIGHT
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_STICK_RIGHT
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_RIGHT
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_RIGHT
+  nameWithType: Buttons.RIGHT_STICK_RIGHT
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_UP
+  name: RIGHT_STICK_UP
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_STICK_UP
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_UP
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_STICK_UP
+  nameWithType: Buttons.RIGHT_STICK_UP
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.RIGHT_TRIGGER
   name: RIGHT_TRIGGER
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html#Studio23_SS2_ButtonIconResourceManager_Data_Buttons_RIGHT_TRIGGER
