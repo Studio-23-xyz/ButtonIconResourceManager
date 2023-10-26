@@ -1,3 +1,12 @@
+## [2.0.7](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.1...v2.0.7) (2023-10-25)
+### Fixed
+
+* Fixed control paths to match control paths received from Input System Asset from Left, Right Analog stick and Dpad. 
+
+### Changed 
+
+* Changed sprite assets. 
+
 ## [2.0.1](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.0...v2.0.1) (2023-10-11)
 ### Added 
 

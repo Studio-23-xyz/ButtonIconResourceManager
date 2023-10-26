@@ -15,6 +15,8 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 		{
 			_xboxIcon = xboxIcon;
 			_playstationIcon = playstationIcon;
+			if (controlPath.Contains("-"))
+				controlPath = controlPath.Replace("-", "/");
 			ControlPath = controlPath;
 		}
 
