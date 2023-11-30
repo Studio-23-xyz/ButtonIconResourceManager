@@ -101,4 +101,20 @@ public class SpriteRetrievalCheck
 		Assert.AreEqual("dpad-down", retrievedIcon.name);
 		yield return null;
 	}
+
+	[UnityTest]
+	public IEnumerator _Unexpected_Platform_Name_Dpad_Up_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("failsafe", "dpad/up");
+		Assert.AreEqual("dpad-up", retrievedIcon.name);
+		yield return null;
+	}
+
+	[UnityTest]
+	public IEnumerator _Empty_Or_Null_Platform_Name_Dpad_Left_()
+	{
+		var retrievedIcon = KeyIconManager.Instance.GetIcon("", "dpad/left");
+		Assert.AreEqual("dpad-left", retrievedIcon.name);
+		yield return null;
+	}
 }

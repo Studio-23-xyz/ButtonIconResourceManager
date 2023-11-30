@@ -1,3 +1,8 @@
+## [2.0.8](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.7...v2.0.8) (2023-11-30)
+###Fixed
+
+* Changed default sprite retrieval to be XBox sprites in case of incorrect or unexpected platform names. 
+
 ## [2.0.7](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.1...v2.0.7) (2023-10-25)
 ### Fixed
 
