@@ -55,6 +55,19 @@ references:
   commentId: T:Global.SpriteRetrievalCheck
   fullName: SpriteRetrievalCheck
   nameWithType: SpriteRetrievalCheck
+- uid: Global.SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_
+  name: _Empty_Or_Null_Platform_Name_Dpad_Left_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__Empty_Or_Null_Platform_Name_Dpad_Left_
+  commentId: M:Global.SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_
+  fullName: SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_()
+  nameWithType: SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_()
+- uid: Global.SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_*
+  name: _Empty_Or_Null_Platform_Name_Dpad_Left_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__Empty_Or_Null_Platform_Name_Dpad_Left__
+  commentId: Overload:Global.SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_
+  nameWithType: SpriteRetrievalCheck._Empty_Or_Null_Platform_Name_Dpad_Left_
 - uid: Global.SpriteRetrievalCheck._PS_Btn_South_Retrieval_Test_01_
   name: _PS_Btn_South_Retrieval_Test_01_()
   href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__PS_Btn_South_Retrieval_Test_01_
@@ -185,6 +198,19 @@ references:
   isSpec: "True"
   fullName: SpriteRetrievalCheck._String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_
   nameWithType: SpriteRetrievalCheck._String_Based_Sprite_Retrieval_Check_LeftStickPress_Playstation_
+- uid: Global.SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_
+  name: _Unexpected_Platform_Name_Dpad_Up_()
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__Unexpected_Platform_Name_Dpad_Up_
+  commentId: M:Global.SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_
+  fullName: SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_()
+  nameWithType: SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_()
+- uid: Global.SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_*
+  name: _Unexpected_Platform_Name_Dpad_Up_
+  href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__Unexpected_Platform_Name_Dpad_Up__
+  commentId: Overload:Global.SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_
+  isSpec: "True"
+  fullName: SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_
+  nameWithType: SpriteRetrievalCheck._Unexpected_Platform_Name_Dpad_Up_
 - uid: Global.SpriteRetrievalCheck._Xbox_Btn_South_Retrieval_Test_01_
   name: _Xbox_Btn_South_Retrieval_Test_01_()
   href: api/Global.SpriteRetrievalCheck.html#Global_SpriteRetrievalCheck__Xbox_Btn_South_Retrieval_Test_01_
