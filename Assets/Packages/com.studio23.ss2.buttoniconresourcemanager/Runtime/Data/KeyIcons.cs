@@ -41,7 +41,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 			else if (platform.Contains("xbox") || platform.Contains("xinput") || platform.Contains("gamepad"))
 				return _xboxIcon;
 			else
-				return null;
+				return _xboxIcon;
 		}
 	}
 }
