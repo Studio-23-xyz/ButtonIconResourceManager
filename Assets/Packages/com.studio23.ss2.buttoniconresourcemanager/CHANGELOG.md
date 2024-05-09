@@ -1,3 +1,8 @@
+## [2.0.9] (2024-05-08)
+###Added
+
+* Added keyboard support. 
+
 ## [2.0.8](https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.7...v2.0.8) (2023-11-30)
 ###Fixed
 
