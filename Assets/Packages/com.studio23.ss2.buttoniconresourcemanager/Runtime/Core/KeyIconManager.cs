@@ -36,7 +36,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 		{
 			string path = $"KeyIcons/{new KeyMappings().GetControlPath(button)}";
 
-			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
+			GamepadKeyIcons keyIcons = Resources.Load<GamepadKeyIcons>(path);
 			if (keyIcons != null)
 			{
 				return keyIcons.GetIcon(platformName);
@@ -56,9 +56,9 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 		{
 			if (controlPath.Contains("/"))
 				controlPath = controlPath.Replace("/","-");
-			string path = $"KeyIcons/{controlPath}";
+			string path = $"KeyIcons/GamePad/{controlPath}";
 
-			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
+			GamepadKeyIcons keyIcons = Resources.Load<GamepadKeyIcons>(path);
 			if (keyIcons != null)
 			{
 				return keyIcons.GetIcon(platformName);
@@ -66,5 +66,21 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			Debug.LogWarning($"Key icon not found for platform {platformName} & control path {controlPath}");
 			return null;
 		}
-	}
+
+        public Sprite GetIcon(string controlPath)
+        {
+            if (controlPath.Contains("/"))
+                controlPath = controlPath.Replace("/", "-");
+            string path = $"KeyIcons/KeyBoard/{controlPath}";
+
+            KeyBoardIcons keyIcons = Resources.Load<KeyBoardIcons>(path);
+            if (keyIcons != null)
+            {
+                return keyIcons.GetIcon();
+            }
+            Debug.LogWarning($"Key icon not found for  control path {controlPath}");
+            return null;
+        }
+
+    }
 }
