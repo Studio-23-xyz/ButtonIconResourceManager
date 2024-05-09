@@ -14,7 +14,7 @@ public class CheckForAssetValidity
 	[Test]
 	public void _Check_For_No_Empty_Control_Path_()
 	{
-		var scriptableObjects = Resources.LoadAll<KeyIcons>($"KeyIcons");
+		var scriptableObjects = Resources.LoadAll<GamepadKeyIcons>($"KeyIcons");
 		bool isValid = true;
 		foreach (var iconObj in scriptableObjects)
 		{
@@ -30,7 +30,7 @@ public class CheckForAssetValidity
 	[Test]
 	public void _Check_For_28_KeyIcon_Asset_Exists_In_Directory_()
 	{
-		var scriptableObjects = Resources.LoadAll<KeyIcons>($"KeyIcons");
+		var scriptableObjects = Resources.LoadAll<GamepadKeyIcons>($"KeyIcons");
 		Assert.AreEqual(28, scriptableObjects.Length);
 	}
 }

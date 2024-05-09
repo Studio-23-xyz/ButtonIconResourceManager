@@ -26,7 +26,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.Editor
 			Directory.CreateDirectory($"Assets/Resources/KeyIcons/GamePad/");
 			for (var i = 0; i < xboxSprites.Length; i++)
 			{
-				KeyIcons keyIcons = CreateInstance<KeyIcons>();
+				GamepadKeyIcons keyIcons = CreateInstance<GamepadKeyIcons>();
 				var controlPath = xboxSprites[i].name;
 				EditorUtility.SetDirty(keyIcons);
 				keyIcons.Initialize(xboxSprites[i], psSprites[i], controlPath);

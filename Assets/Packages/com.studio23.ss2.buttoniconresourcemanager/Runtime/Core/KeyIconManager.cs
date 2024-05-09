@@ -36,7 +36,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 		{
 			string path = $"KeyIcons/{new KeyMappings().GetControlPath(button)}";
 
-			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
+			GamepadKeyIcons keyIcons = Resources.Load<GamepadKeyIcons>(path);
 			if (keyIcons != null)
 			{
 				return keyIcons.GetIcon(platformName);
@@ -58,7 +58,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 				controlPath = controlPath.Replace("/","-");
 			string path = $"KeyIcons/GamePad/{controlPath}";
 
-			KeyIcons keyIcons = Resources.Load<KeyIcons>(path);
+			GamepadKeyIcons keyIcons = Resources.Load<GamepadKeyIcons>(path);
 			if (keyIcons != null)
 			{
 				return keyIcons.GetIcon(platformName);
