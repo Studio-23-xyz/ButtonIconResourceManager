@@ -55,10 +55,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.yml",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html"
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html"
         }
       },
       "version": ""

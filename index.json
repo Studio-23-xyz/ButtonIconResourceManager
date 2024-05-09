@@ -19,10 +19,15 @@
     "title": "Enum Buttons | |",
     "keywords": "Enum Buttons Namespace Studio23.SS2.ButtonIconResourceManager.Data public enum Buttons Fields BUTTON_EAST = 0 BUTTON_NORTH = 2 BUTTON_SOUTH = 3 BUTTON_WEST = 1 DPAD = 4 DPAD_DOWN = 7 DPAD_LEFT = 8 DPAD_RIGHT = 6 DPAD_UP = 5 EXCLUSIVE = 27 LEFT_SHOULDER = 9 LEFT_STICK = 11 LEFT_STICK_DOWN = 14 LEFT_STICK_LEFT = 15 LEFT_STICK_PRESS = 12 LEFT_STICK_RIGHT = 16 LEFT_STICK_UP = 13 LEFT_TRIGGER = 10 RIGHT_SHOULDER = 17 RIGHT_STICK = 19 RIGHT_STICK_DOWN = 22 RIGHT_STICK_LEFT = 23 RIGHT_STICK_PRESS = 20 RIGHT_STICK_RIGHT = 24 RIGHT_STICK_UP = 21 RIGHT_TRIGGER = 18 SELECT = 25 START = 26"
   },
-  "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html": {
-    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html",
-    "title": "Class KeyIcons | |",
-    "keywords": "Class KeyIcons Namespace Studio23.SS2.ButtonIconResourceManager.Data public class KeyIcons : ScriptableObject Inheritance object KeyIcons Fields ControlPath public string ControlPath Field Value string Methods GetIcon(Platform) public Sprite GetIcon(Platform platform) Parameters platform Platform Returns Sprite GetIcon(string) public Sprite GetIcon(string platformName) Parameters platformName string Returns Sprite Initialize(Sprite, Sprite, string) public void Initialize(Sprite xboxIcon, Sprite playstationIcon, string controlPath) Parameters xboxIcon Sprite playstationIcon Sprite controlPath string"
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html",
+    "title": "Class GamepadKeyIcons | |",
+    "keywords": "Class GamepadKeyIcons Namespace Studio23.SS2.ButtonIconResourceManager.Data public class GamepadKeyIcons : ScriptableObject Inheritance object GamepadKeyIcons Fields ControlPath public string ControlPath Field Value string Methods GetIcon(Platform) public Sprite GetIcon(Platform platform) Parameters platform Platform Returns Sprite GetIcon(string) public Sprite GetIcon(string platformName) Parameters platformName string Returns Sprite Initialize(Sprite, Sprite, string) public void Initialize(Sprite xboxIcon, Sprite playstationIcon, string controlPath) Parameters xboxIcon Sprite playstationIcon Sprite controlPath string"
+  },
+  "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html": {
+    "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html",
+    "title": "Class KeyBoardIcons | |",
+    "keywords": "Class KeyBoardIcons Namespace Studio23.SS2.ButtonIconResourceManager.Data public class KeyBoardIcons : ScriptableObject Inheritance object KeyBoardIcons Fields ControlPath public string ControlPath Field Value string Methods GetIcon() public Sprite GetIcon() Returns Sprite Initialize(Sprite, string) public void Initialize(Sprite keyBoardIcon, string controlPath) Parameters keyBoardIcon Sprite controlPath string"
   },
   "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html": {
     "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html",
@@ -32,7 +37,7 @@
   "api/Studio23.SS2.ButtonIconResourceManager.Data.html": {
     "href": "api/Studio23.SS2.ButtonIconResourceManager.Data.html",
     "title": "Namespace Studio23.SS2.ButtonIconResourceManager.Data | |",
-    "keywords": "Namespace Studio23.SS2.ButtonIconResourceManager.Data Classes KeyIcons Enums Buttons Platform"
+    "keywords": "Namespace Studio23.SS2.ButtonIconResourceManager.Data Classes GamepadKeyIcons KeyBoardIcons Enums Buttons Platform"
   },
   "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html": {
     "href": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html",
@@ -47,7 +52,7 @@
   "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html": {
     "href": "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html",
     "title": "Class KeyIconManager | |",
-    "keywords": "Class KeyIconManager Namespace Studio23.SS2.ButtonIconResourceManager.core public class KeyIconManager : MonoBehaviour Inheritance object KeyIconManager Properties Instance public static KeyIconManager Instance { get; } Property Value KeyIconManager Methods GetIcon(Platform, Buttons) Retrieves the sprite associated with the given platform enum and button enum. This can be used if you want to show a button arbitrarily without counting for rebinds. public Sprite GetIcon(Platform platformName, Buttons button) Parameters platformName Platform The controller layout to use. button Buttons Name of the button icon to retrieve Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button. GetIcon(string, string) If you want to account for potential rebinds of a button and want to update the button icon dynamically when it has been rebinded, use this method. public Sprite GetIcon(string platformName, string controlPath) Parameters platformName string String formatted name of the platform. This dictates which layout to use. controlPath string Button name in string format which is set accordingly by the Input System. Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button."
+    "keywords": "Class KeyIconManager Namespace Studio23.SS2.ButtonIconResourceManager.core public class KeyIconManager : MonoBehaviour Inheritance object KeyIconManager Properties Instance public static KeyIconManager Instance { get; } Property Value KeyIconManager Methods GetIcon(Platform, Buttons) Retrieves the sprite associated with the given platform enum and button enum. This can be used if you want to show a button arbitrarily without counting for rebinds. public Sprite GetIcon(Platform platformName, Buttons button) Parameters platformName Platform The controller layout to use. button Buttons Name of the button icon to retrieve Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button. GetIcon(string) public Sprite GetIcon(string controlPath) Parameters controlPath string Returns Sprite GetIcon(string, string) If you want to account for potential rebinds of a button and want to update the button icon dynamically when it has been rebinded, use this method. public Sprite GetIcon(string platformName, string controlPath) Parameters platformName string String formatted name of the platform. This dictates which layout to use. controlPath string Button name in string format which is set accordingly by the Input System. Returns Sprite Returns a sprite of associated with the controller specific to the given platform and button."
   },
   "api/Studio23.SS2.ButtonIconResourceManager.core.html": {
     "href": "api/Studio23.SS2.ButtonIconResourceManager.core.html",
@@ -61,7 +66,7 @@
   },
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
-    "title": "2.0.1 (2023-10-11) | |",
+    "title": "| |",
     "keywords": "2.0.1 (2023-10-11) Added Added function override to retain sprite retrieval with string based deviceLayout and controlPath parameters. Added test cases for override function. 2.0.0 (2023-10-10) Changed Added enumerations for platform and button selection. Old GetIcon function signature will not work anymore. You will have to pass in Platform and Button enum to the function. Fixed Fixed some typos in the sprite and asset name. 1.0.4 (2023-10-09) Fixed Fixed naming inconsistencies that led to certain fail states. 1.0.3 (2023-10-09) Added Added sprites for leftStickPress & rightStickPress for both Xbox & Playstation. Updates Updated README.md to better understand the package usage. 1.0.2 (2023-10-03) Bug Fixes Placed all scripts under appropriate namsepaces. Fixed an issue with Editor Assembly Definition. 1.0.1 (2023-10-03) Bug Fixes Fixed minor bugs. 1.0.0 Initial submission for package distribution."
   },
   "index.html": {

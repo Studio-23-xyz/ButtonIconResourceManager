@@ -417,56 +417,97 @@ references:
   commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.Buttons.START
   fullName: Studio23.SS2.ButtonIconResourceManager.Data.Buttons.START
   nameWithType: Buttons.START
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons
-  name: KeyIcons
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html
-  commentId: T:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons
-  nameWithType: KeyIcons
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.ControlPath
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons
+  name: GamepadKeyIcons
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html
+  commentId: T:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons
+  nameWithType: GamepadKeyIcons
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.ControlPath
   name: ControlPath
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_ControlPath
-  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.ControlPath
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.ControlPath
-  nameWithType: KeyIcons.ControlPath
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_ControlPath
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.ControlPath
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.ControlPath
+  nameWithType: GamepadKeyIcons.ControlPath
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
   name: GetIcon(Platform)
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_GetIcon_Studio23_SS2_ButtonIconResourceManager_Data_Platform_
-  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
-  nameWithType: KeyIcons.GetIcon(Platform)
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(System.String)
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_GetIcon_Studio23_SS2_ButtonIconResourceManager_Data_Platform_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform)
+  nameWithType: GamepadKeyIcons.GetIcon(Platform)
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(System.String)
   name: GetIcon(string)
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_GetIcon_System_String_
-  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(System.String)
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_GetIcon_System_String_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(System.String)
   name.vb: GetIcon(String)
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(string)
-  fullName.vb: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon(String)
-  nameWithType: KeyIcons.GetIcon(string)
-  nameWithType.vb: KeyIcons.GetIcon(String)
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon*
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(string)
+  fullName.vb: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon(String)
+  nameWithType: GamepadKeyIcons.GetIcon(string)
+  nameWithType.vb: GamepadKeyIcons.GetIcon(String)
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon*
   name: GetIcon
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_GetIcon_
-  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_GetIcon_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon
   isSpec: "True"
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.GetIcon
-  nameWithType: KeyIcons.GetIcon
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize(Sprite,Sprite,System.String)
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.GetIcon
+  nameWithType: GamepadKeyIcons.GetIcon
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize(Sprite,Sprite,System.String)
   name: Initialize(Sprite, Sprite, string)
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_Initialize_Sprite_Sprite_System_String_
-  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize(Sprite,Sprite,System.String)
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_Initialize_Sprite_Sprite_System_String_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize(Sprite,Sprite,System.String)
   name.vb: Initialize(Sprite, Sprite, String)
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize(Sprite, Sprite, string)
-  fullName.vb: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize(Sprite, Sprite, String)
-  nameWithType: KeyIcons.Initialize(Sprite, Sprite, string)
-  nameWithType.vb: KeyIcons.Initialize(Sprite, Sprite, String)
-- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize*
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize(Sprite, Sprite, string)
+  fullName.vb: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize(Sprite, Sprite, String)
+  nameWithType: GamepadKeyIcons.Initialize(Sprite, Sprite, string)
+  nameWithType.vb: GamepadKeyIcons.Initialize(Sprite, Sprite, String)
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize*
   name: Initialize
-  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyIcons_Initialize_
-  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_GamepadKeyIcons_Initialize_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize
   isSpec: "True"
-  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyIcons.Initialize
-  nameWithType: KeyIcons.Initialize
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.Initialize
+  nameWithType: GamepadKeyIcons.Initialize
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons
+  name: KeyBoardIcons
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html
+  commentId: T:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons
+  nameWithType: KeyBoardIcons
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.ControlPath
+  name: ControlPath
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyBoardIcons_ControlPath
+  commentId: F:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.ControlPath
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.ControlPath
+  nameWithType: KeyBoardIcons.ControlPath
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon
+  name: GetIcon()
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyBoardIcons_GetIcon
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon()
+  nameWithType: KeyBoardIcons.GetIcon()
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon*
+  name: GetIcon
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyBoardIcons_GetIcon_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon
+  isSpec: "True"
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.GetIcon
+  nameWithType: KeyBoardIcons.GetIcon
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize(Sprite,System.String)
+  name: Initialize(Sprite, string)
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyBoardIcons_Initialize_Sprite_System_String_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize(Sprite,System.String)
+  name.vb: Initialize(Sprite, String)
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize(Sprite, string)
+  fullName.vb: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize(Sprite, String)
+  nameWithType: KeyBoardIcons.Initialize(Sprite, string)
+  nameWithType.vb: KeyBoardIcons.Initialize(Sprite, String)
+- uid: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize*
+  name: Initialize
+  href: api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html#Studio23_SS2_ButtonIconResourceManager_Data_KeyBoardIcons_Initialize_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize
+  isSpec: "True"
+  fullName: Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.Initialize
+  nameWithType: KeyBoardIcons.Initialize
 - uid: Studio23.SS2.ButtonIconResourceManager.Data.Platform
   name: Platform
   href: api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html
@@ -528,6 +569,15 @@ references:
   commentId: M:Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform,Studio23.SS2.ButtonIconResourceManager.Data.Buttons)
   fullName: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(Studio23.SS2.ButtonIconResourceManager.Data.Platform, Studio23.SS2.ButtonIconResourceManager.Data.Buttons)
   nameWithType: KeyIconManager.GetIcon(Platform, Buttons)
+- uid: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(System.String)
+  name: GetIcon(string)
+  href: api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html#Studio23_SS2_ButtonIconResourceManager_core_KeyIconManager_GetIcon_System_String_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(System.String)
+  name.vb: GetIcon(String)
+  fullName: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(string)
+  fullName.vb: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(String)
+  nameWithType: KeyIconManager.GetIcon(string)
+  nameWithType.vb: KeyIconManager.GetIcon(String)
 - uid: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon(System.String,System.String)
   name: GetIcon(string, string)
   href: api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html#Studio23_SS2_ButtonIconResourceManager_core_KeyIconManager_GetIcon_System_String_System_String_
