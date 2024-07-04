@@ -1,3 +1,8 @@
+## [2.0.10] (https://github.com/Studio-23-xyz/ButtonIconResourceManager/compare/v2.0.9...v2.0.10) (2024-07-04)
+###Removed
+
+* Removed extra and unnecesary Debug.LogWarnings in core system. 
+
 ## [2.0.9] (2024-05-08)
 ###Added
 

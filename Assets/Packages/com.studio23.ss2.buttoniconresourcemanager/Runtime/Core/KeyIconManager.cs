@@ -42,7 +42,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 				return keyIcons.GetIcon(platformName);
 			}
 
-			Debug.LogWarning($"Key icon not found for path: {path}");
+			// Debug.LogWarning($"Key icon not found for path: {path}");
 			return null;
 		}
 
@@ -63,7 +63,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
 			{
 				return keyIcons.GetIcon(platformName);
 			}
-			Debug.LogWarning($"Key icon not found for platform {platformName} & control path {controlPath}");
+			// Debug.LogWarning($"Key icon not found for platform {platformName} & control path {controlPath}");
 			return null;
 		}
 
@@ -78,7 +78,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
             {
                 return keyIcons.GetIcon();
             }
-            Debug.LogWarning($"Key icon not found for  control path {controlPath}");
+            // Debug.LogWarning($"Key icon not found for  control path {controlPath}");
             return null;
         }
 
