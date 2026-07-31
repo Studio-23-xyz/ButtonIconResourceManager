@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: e0b6217e8dac9e1439f0fb21f6c586ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7834213258986282075
+    second: Xbox_0
+  - first:
+      213: 8867337345420443070
+    second: Xbox_1
+  - first:
+      213: 3346102048359200712
+    second: Xbox_2
+  - first:
+      213: -8208218399121414660
+    second: Xbox_3
+  - first:
+      213: -8908107722724381513
+    second: Xbox_4
+  - first:
+      213: 2961646330409218291
+    second: Xbox_5
+  - first:
+      213: -8457566178741570253
+    second: Xbox_6
+  - first:
+      213: 7389484809937102497
+    second: Xbox_7
+  - first:
+      213: -4559592554450751890
+    second: Xbox_8
+  - first:
+      213: -6216974254548779218
+    second: Xbox_9
+  - first:
+      213: -5952481262425809733
+    second: Xbox_10
+  - first:
+      213: 5759654993489329034
+    second: Xbox_11
+  - first:
+      213: 6718840827436700463
+    second: Xbox_12
+  - first:
+      213: 8214534391043496175
+    second: Xbox_13
+  - first:
+      213: 4403734127083825471
+    second: Xbox_14
+  - first:
+      213: 430449356248592832
+    second: Xbox_15
+  - first:
+      213: 1897905978145395122
+    second: Xbox_16
+  - first:
+      213: -221367910605342733
+    second: Xbox_17
+  - first:
+      213: 8428049758795593856
+    second: Xbox_18
+  - first:
+      213: -4789853778727187021
+    second: Xbox_19
+  - first:
+      213: 8968652840102387011
+    second: Xbox_20
+  - first:
+      213: 6536187095465710397
+    second: Xbox_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: a
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 110
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3a7736c88474390800000000000000
+      internalID: -7834213258986282075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 110
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd3751a55c1f0b70800000000000000
+      internalID: 8867337345420443070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dpadU
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 103
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c738a6a51ebf6e20800000000000000
+      internalID: 3346102048359200712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dpadDown
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 103
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ea81eadc861e80800000000000000
+      internalID: -8208218399121414660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dpadLeft
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 103
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc691e293b006480800000000000000
+      internalID: -8908107722724381513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dpadRight
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 103
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0716265a1e91920800000000000000
+      internalID: 2961646330409218291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dpadUp
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 103
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33530cbde50b0aa80800000000000000
+      internalID: -8457566178741570253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftBumper
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 120
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a622719849bc8660800000000000000
+      internalID: 7389484809937102497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftStick
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 106
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e627fbab219b0c0800000000000000
+      internalID: -4559592554450751890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftStickDown
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 107
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcd0f454d9846da0800000000000000
+      internalID: -5952481262425809733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftTrigger
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b7cbb53b76eef40800000000000000
+      internalID: 5759654993489329034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 10
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2391c5722e1e3d50800000000000000
+      internalID: 6718840827436700463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightBumper
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 18
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe890659183eff170800000000000000
+      internalID: 8214534391043496175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightStick
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 4
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39a81a4bd43d1d30800000000000000
+      internalID: 4403734127083825471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightTrigger
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 7
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1527c7e67b65a10800000000000000
+      internalID: 1897905978145395122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: share
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 19
+        width: 94
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b2b3ee0b8decf0800000000000000
+      internalID: -221367910605342733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: view
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 10
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088f3561a9276f470800000000000000
+      internalID: 8428049758795593856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 8
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd47e0bd55078db0800000000000000
+      internalID: -4789853778727187021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: y
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 8
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dd9187d3e077c70800000000000000
+      internalID: 8968652840102387011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightStickDown
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 4
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33d9ba788335ba50800000000000000
+      internalID: 6536187095465710397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 61ba3a260aab30944ab9b593159e3bf4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Xbox_0: -7834213258986282075
+      Xbox_1: 8867337345420443070
+      Xbox_10: -5952481262425809733
+      Xbox_11: 5759654993489329034
+      Xbox_12: 6718840827436700463
+      Xbox_13: 8214534391043496175
+      Xbox_14: 4403734127083825471
+      Xbox_15: 430449356248592832
+      Xbox_16: 1897905978145395122
+      Xbox_17: -221367910605342733
+      Xbox_18: 8428049758795593856
+      Xbox_19: -4789853778727187021
+      Xbox_2: 3346102048359200712
+      Xbox_20: 8968652840102387011
+      Xbox_3: -8208218399121414660
+      Xbox_4: -8908107722724381513
+      Xbox_5: 2961646330409218291
+      Xbox_6: -8457566178741570253
+      Xbox_7: 7389484809937102497
+      Xbox_8: -4559592554450751890
+      Xbox_9: -6216974254548779218
+      a: -7834213258986282075
+      b: 8867337345420443070
+      dpadDown: -8208218399121414660
+      dpadLeft: -8908107722724381513
+      dpadRight: 2961646330409218291
+      dpadU: 3346102048359200712
+      dpadUp: -8457566178741570253
+      leftBumper: 7389484809937102497
+      leftStick: -4559592554450751890
+      leftStickDown: -5952481262425809733
+      leftTrigger: 5759654993489329034
+      menu: 6718840827436700463
+      rightBumper: 8214534391043496175
+      rightStick: 4403734127083825471
+      rightStickDown: 6536187095465710397
+      rightTrigger: 1897905978145395122
+      share: -221367910605342733
+      view: 8428049758795593856
+      x: -4789853778727187021
+      y: 8968652840102387011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
