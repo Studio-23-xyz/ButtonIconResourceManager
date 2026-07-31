@@ -49,6 +49,12 @@ references:
   isSpec: "True"
   fullName: CheckForAssetValidity._Check_For_No_Empty_Control_Path_
   nameWithType: CheckForAssetValidity._Check_For_No_Empty_Control_Path_
+- uid: Global.Main
+  name: Main
+  href: api/Global.Main.html
+  commentId: T:Global.Main
+  fullName: Main
+  nameWithType: Main
 - uid: Global.SpriteRetrievalCheck
   name: SpriteRetrievalCheck
   href: api/Global.SpriteRetrievalCheck.html
@@ -532,6 +538,25 @@ references:
   commentId: N:Studio23.SS2.ButtonIconResourceManager.Editor
   fullName: Studio23.SS2.ButtonIconResourceManager.Editor
   nameWithType: Studio23.SS2.ButtonIconResourceManager.Editor
+- uid: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit
+  name: ButtonIconGeneratorUIToolkit
+  href: api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.html
+  commentId: T:Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit
+  fullName: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit
+  nameWithType: ButtonIconGeneratorUIToolkit
+- uid: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets
+  name: CreateButtonIconSpriteAssets()
+  href: api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.html#Studio23_SS2_ButtonIconResourceManager_Editor_ButtonIconGeneratorUIToolkit_CreateButtonIconSpriteAssets
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets
+  fullName: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets()
+  nameWithType: ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets()
+- uid: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets*
+  name: CreateButtonIconSpriteAssets
+  href: api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.html#Studio23_SS2_ButtonIconResourceManager_Editor_ButtonIconGeneratorUIToolkit_CreateButtonIconSpriteAssets_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets
+  isSpec: "True"
+  fullName: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets
+  nameWithType: ButtonIconGeneratorUIToolkit.CreateButtonIconSpriteAssets
 - uid: Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator
   name: ButtonIconSOGenerator
   href: api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html
@@ -594,6 +619,22 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetIcon
   nameWithType: KeyIconManager.GetIcon
+- uid: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName(System.String)
+  name: GetSpriteName(string)
+  href: api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html#Studio23_SS2_ButtonIconResourceManager_core_KeyIconManager_GetSpriteName_System_String_
+  commentId: M:Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName(System.String)
+  name.vb: GetSpriteName(String)
+  fullName: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName(string)
+  fullName.vb: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName(String)
+  nameWithType: KeyIconManager.GetSpriteName(string)
+  nameWithType.vb: KeyIconManager.GetSpriteName(String)
+- uid: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName*
+  name: GetSpriteName
+  href: api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html#Studio23_SS2_ButtonIconResourceManager_core_KeyIconManager_GetSpriteName_
+  commentId: Overload:Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName
+  isSpec: "True"
+  fullName: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.GetSpriteName
+  nameWithType: KeyIconManager.GetSpriteName
 - uid: Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.Instance
   name: Instance
   href: api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html#Studio23_SS2_ButtonIconResourceManager_core_KeyIconManager_Instance

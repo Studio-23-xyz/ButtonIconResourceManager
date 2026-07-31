@@ -21,7 +21,25 @@
           "relative_path": "api/Global.CheckForAssetValidity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CheckForAssetValidity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Main.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Main",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -31,7 +49,11 @@
           "relative_path": "api/Global.SpriteRetrievalCheck.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SpriteRetrievalCheck",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +63,11 @@
           "relative_path": "api/Global.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -51,7 +77,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Buttons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Data.Buttons",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +91,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Data.GamepadKeyIcons",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -71,7 +105,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Data.KeyBoardIcons",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -81,7 +119,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.Platform.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Data.Platform",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +133,25 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Data.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconGeneratorUIToolkit",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +161,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Editor.ButtonIconSOGenerator",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +175,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.Editor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.Editor",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -121,7 +189,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -131,7 +203,11 @@
           "relative_path": "api/Studio23.SS2.ButtonIconResourceManager.core.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Studio23.SS2.ButtonIconResourceManager.core",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -147,11 +223,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -170,11 +246,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -203,11 +279,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -226,11 +302,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
