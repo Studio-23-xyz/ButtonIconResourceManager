@@ -1,0 +1,890 @@
+fileFormatVersion: 2
+guid: e0b6217e8dac9e1439f0fb21f6c586ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7717263063117510981
+    second: GamePad_0
+  - first:
+      213: -1315512913220550431
+    second: GamePad_1
+  - first:
+      213: 1410941503967247910
+    second: GamePad_2
+  - first:
+      213: 8671986326371740838
+    second: GamePad_3
+  - first:
+      213: -8829175606098965030
+    second: GamePad_4
+  - first:
+      213: 5209052518892760132
+    second: GamePad_5
+  - first:
+      213: 3929748798335045543
+    second: GamePad_6
+  - first:
+      213: -4173360813770215028
+    second: GamePad_7
+  - first:
+      213: 2675347516529559865
+    second: GamePad_8
+  - first:
+      213: -1197723916106473080
+    second: GamePad_9
+  - first:
+      213: 8643129042596426020
+    second: GamePad_10
+  - first:
+      213: 7931948267068162664
+    second: GamePad_11
+  - first:
+      213: -5426375965658399979
+    second: GamePad_12
+  - first:
+      213: 655813010742373296
+    second: GamePad_13
+  - first:
+      213: -7463398950831400881
+    second: GamePad_14
+  - first:
+      213: 3993458366922858323
+    second: GamePad_15
+  - first:
+      213: 3184346438096775320
+    second: GamePad_16
+  - first:
+      213: -7567950884394876480
+    second: GamePad_17
+  - first:
+      213: 7286528815640729390
+    second: GamePad_18
+  - first:
+      213: 5023817132852157620
+    second: GamePad_19
+  - first:
+      213: 3163475425057142108
+    second: GamePad_20
+  - first:
+      213: -341702211134427852
+    second: GamePad_21
+  - first:
+      213: 148983877529494137
+    second: GamePad_22
+  - first:
+      213: 374608295686971041
+    second: GamePad_23
+  - first:
+      213: 7925761795411021476
+    second: GamePad_24
+  - first:
+      213: -7991286871011133685
+    second: GamePad_25
+  - first:
+      213: 7859673410530204855
+    second: GamePad_26
+  - first:
+      213: -5143128133363066815
+    second: GamePad_27
+  - first:
+      213: 5010867263603623579
+    second: GamePad_28
+  - first:
+      213: 4922879746884218570
+    second: GamePad_29
+  - first:
+      213: 6407205022739768074
+    second: GamePad_30
+  - first:
+      213: -7920692612503601045
+    second: GamePad_31
+  - first:
+      213: -8271691975129575140
+    second: GamePad_32
+  - first:
+      213: 8517950911131120533
+    second: GamePad_33
+  - first:
+      213: 8031536330479919433
+    second: GamePad_34
+  - first:
+      213: -7511475994041395927
+    second: GamePad_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: b
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549bc5b3ed9391b60800000000000000
+      internalID: 7717263063117510981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: y
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0cc0ea9fb5ebde0800000000000000
+      internalID: -1315512913220550431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62eb2d682dba49310800000000000000
+      internalID: 1410941503967247910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSRight
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1492
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acae602e95195870800000000000000
+      internalID: 8671986326371740838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add4de2b097787580800000000000000
+      internalID: -8829175606098965030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controllerExclusive
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ce4fccaa54a4840800000000000000
+      internalID: 5209052518892760132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadDown
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 1475
+        width: 366
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81f0b7837e3516c0800000000000000
+      internalID: -4173360813770215028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-Pad
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 1444
+        width: 487
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881eb71b174d06fe0800000000000000
+      internalID: -1197723916106473080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSUp
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1008
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbe068657ae91900800000000000000
+      internalID: 655813010742373296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LT
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1012
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48dbae623eac6890800000000000000
+      internalID: -7463398950831400881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RS
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1008
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f9fb9f93d9b6730800000000000000
+      internalID: 3993458366922858323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadLeft
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1032
+        width: 430
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898e98cc632113c20800000000000000
+      internalID: 3184346438096775320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadRight
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1032
+        width: 431
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14a0274cc39f690800000000000000
+      internalID: -7567950884394876480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RB
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1072
+        width: 410
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc9c24a01f28b540800000000000000
+      internalID: 5023817132852157620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadUp
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 992
+        width: 359
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e7691c0c411200800000000000000
+      internalID: 148983877529494137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LB
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 1072
+        width: 410
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae165a9240e23500800000000000000
+      internalID: 374608295686971041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSDown
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 508
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae06d54c56fdfd60800000000000000
+      internalID: 7925761795411021476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSLeft
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0773233eee391190800000000000000
+      internalID: -7991286871011133685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSRight
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc5c35135b231d60800000000000000
+      internalID: 7859673410530204855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSUp
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 524
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14893905630ff98b0800000000000000
+      internalID: -5143128133363066815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LS
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 524
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964abf3a3d2a8540800000000000000
+      internalID: 5010867263603623579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSDown
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 508
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceaff81c05915440800000000000000
+      internalID: 4922879746884218570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSLeft
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03a0877507fae850800000000000000
+      internalID: 6407205022739768074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Stick Press
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 524
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6089a8d80c041290800000000000000
+      internalID: -7920692612503601045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Stick Press
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d3f259fb053d80800000000000000
+      internalID: -8271691975129575140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RT
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 44
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5937f204937d53670800000000000000
+      internalID: 8517950911131120533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 96
+        width: 274
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94166ea5dbfb57f60800000000000000
+      internalID: 8031536330479919433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 96
+        width: 274
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925d9448160e1c790800000000000000
+      internalID: -7511475994041395927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53d3271722076eb469d67350b1703a83
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      D-Pad: -1197723916106473080
+      D-PadDown: -4173360813770215028
+      D-PadLeft: 3184346438096775320
+      D-PadRight: -7567950884394876480
+      D-PadUp: 148983877529494137
+      GamePad_10: 8643129042596426020
+      GamePad_11: 7931948267068162664
+      GamePad_12: -5426375965658399979
+      GamePad_18: 7286528815640729390
+      GamePad_20: 3163475425057142108
+      GamePad_21: -341702211134427852
+      GamePad_6: 3929748798335045543
+      GamePad_8: 2675347516529559865
+      LB: 374608295686971041
+      LS: 5010867263603623579
+      LSDown: 4922879746884218570
+      LSLeft: 6407205022739768074
+      LSRight: 8671986326371740838
+      LSUp: 655813010742373296
+      LT: -7463398950831400881
+      Left Stick Press: -7920692612503601045
+      RB: 5023817132852157620
+      RS: 3993458366922858323
+      RSDown: 7925761795411021476
+      RSLeft: -7991286871011133685
+      RSRight: 7859673410530204855
+      RSUp: -5143128133363066815
+      RT: 8517950911131120533
+      Right Stick Press: -8271691975129575140
+      Select: 8031536330479919433
+      Start: -7511475994041395927
+      a: 1410941503967247910
+      b: 7717263063117510981
+      controllerExclusive: 5209052518892760132
+      x: -8829175606098965030
+      y: -1315512913220550431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
