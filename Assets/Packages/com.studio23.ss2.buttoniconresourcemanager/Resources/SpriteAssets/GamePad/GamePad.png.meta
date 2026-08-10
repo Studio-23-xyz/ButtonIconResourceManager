@@ -833,6 +833,138 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LSX
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 33
+        width: 484
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d0b486645f9c48a6a574198d90e0a
+      internalID: 554029534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSY
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 0
+        width: 405
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f945a4835b2e9445bf8133c9f6d27c8
+      internalID: -1613820045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSX
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 27
+        width: 484
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23579454d7381e642af7db307a3da6a1
+      internalID: -1642065230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSY
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 0
+        width: 405
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8a44051f1dd394bb7bb38ce57bbfd1
+      internalID: 1494727844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamePad_4
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617fff07833c82847967e46156755bd0
+      internalID: 1720843968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamePad_5
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb6921bdf5e21b41a7c84ac1e56d67b
+      internalID: 1889446178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -845,7 +977,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       D-Pad: -1197723916106473080
       D-PadDown: -4173360813770215028
@@ -858,6 +992,8 @@ TextureImporter:
       GamePad_18: 7286528815640729390
       GamePad_20: 3163475425057142108
       GamePad_21: -341702211134427852
+      GamePad_4: 1720843968
+      GamePad_5: 1889446178
       GamePad_6: 3929748798335045543
       GamePad_8: 2675347516529559865
       LB: 374608295686971041
@@ -866,6 +1002,8 @@ TextureImporter:
       LSLeft: 6407205022739768074
       LSRight: 8671986326371740838
       LSUp: 655813010742373296
+      LSX: 554029534
+      LSY: -1613820045
       LT: -7463398950831400881
       Left Stick Press: -7920692612503601045
       RB: 5023817132852157620
@@ -874,6 +1012,8 @@ TextureImporter:
       RSLeft: -7991286871011133685
       RSRight: 7859673410530204855
       RSUp: -5143128133363066815
+      RSX: -1642065230
+      RSY: 1494727844
       RT: 8517950911131120533
       Right Stick Press: -8271691975129575140
       Select: 8031536330479919433

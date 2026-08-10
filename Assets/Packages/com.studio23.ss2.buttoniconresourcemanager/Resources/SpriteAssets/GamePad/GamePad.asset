@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GamePad
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.TextCore.Text.SpriteAsset
   m_Version: 1.1.0
-  m_Material: {fileID: 6141569112930485580}
+  m_Material: {fileID: 5129071850269713314}
   m_FaceInfo:
     m_FaceIndex: 0
     m_FamilyName: 
@@ -42,37 +42,37 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 0
     m_Scale: 1
-    m_Name: D-PadDown
+    m_Name: b
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 1
     m_Scale: 1
-    m_Name: b
+    m_Name: y
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
     m_Scale: 1
-    m_Name: y
+    m_Name: a
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 3
     m_Scale: 1
-    m_Name: a
+    m_Name: LSRight
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 4
     m_Scale: 1
-    m_Name: LSRight
+    m_Name: x
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 5
     m_Scale: 1
-    m_Name: x
+    m_Name: controllerExclusive
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 6
     m_Scale: 1
-    m_Name: controllerExclusive
+    m_Name: D-PadDown
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 7
@@ -152,12 +152,12 @@ MonoBehaviour:
     m_Unicode: 65534
     m_GlyphIndex: 22
     m_Scale: 1
-    m_Name: RSDowm
+    m_Name: RSDown
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 23
     m_Scale: 1
-    m_Name: LSDowm
+    m_Name: LSDown
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 24
@@ -178,24 +178,38 @@ MonoBehaviour:
     m_GlyphIndex: 27
     m_Scale: 1
     m_Name: Right Stick Press
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 28
+    m_Scale: 1
+    m_Name: LSX
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 29
+    m_Scale: 1
+    m_Name: RSX
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 30
+    m_Scale: 1
+    m_Name: GamePad_4
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 31
+    m_Scale: 1
+    m_Name: GamePad_5
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 32
+    m_Scale: 1
+    m_Name: LSY
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 33
+    m_Scale: 1
+    m_Name: RSY
   m_SpriteGlyphTable:
   - m_Index: 0
-    m_Metrics:
-      m_Width: 187.28804
-      m_Height: 187.33643
-      m_HorizontalBearingX: -93.64402
-      m_HorizontalBearingY: 93.66821
-      m_HorizontalAdvance: 187.28804
-    m_GlyphRect:
-      m_X: 1826
-      m_Y: 823
-      m_Width: 187
-      m_Height: 187
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
-    sprite: {fileID: -4173360813770215028, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 1
     m_Metrics:
       m_Width: 212.68303
       m_Height: 212.73798
@@ -211,7 +225,7 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 7717263063117510981, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 2
+  - m_Index: 1
     m_Metrics:
       m_Width: 212.68303
       m_Height: 212.73798
@@ -227,7 +241,7 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: -1315512913220550431, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 3
+  - m_Index: 2
     m_Metrics:
       m_Width: 212.68303
       m_Height: 212.73798
@@ -243,7 +257,7 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 1410941503967247910, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 4
+  - m_Index: 3
     m_Metrics:
       m_Width: 221.14803
       m_Height: 212.73798
@@ -259,7 +273,7 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 8671986326371740838, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 5
+  - m_Index: 4
     m_Metrics:
       m_Width: 212.68303
       m_Height: 212.73798
@@ -275,7 +289,7 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: -8829175606098965030, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
-  - m_Index: 6
+  - m_Index: 5
     m_Metrics:
       m_Width: 212.68303
       m_Height: 212.73798
@@ -291,6 +305,22 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: 5209052518892760132, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 6
+    m_Metrics:
+      m_Width: 193.6368
+      m_Height: 230.20154
+      m_HorizontalBearingX: -96.8184
+      m_HorizontalBearingY: 115.10077
+      m_HorizontalAdvance: 193.6368
+    m_GlyphRect:
+      m_X: 1826
+      m_Y: 780
+      m_Width: 193
+      m_Height: 230
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -4173360813770215028, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
   - m_Index: 7
     m_Metrics:
       m_Width: 257.65332
@@ -627,8 +657,104 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: -8271691975129575140, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 28
+    m_Metrics:
+      m_Width: 256.06613
+      m_Height: 210.09198
+      m_HorizontalBearingX: -128.03307
+      m_HorizontalBearingY: 105.04599
+      m_HorizontalAdvance: 256.06613
+    m_GlyphRect:
+      m_X: 1022
+      m_Y: 17
+      m_Width: 256
+      m_Height: 210
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 554029534, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 29
+    m_Metrics:
+      m_Width: 256.06613
+      m_Height: 213.26718
+      m_HorizontalBearingX: -128.03307
+      m_HorizontalBearingY: 106.63359
+      m_HorizontalAdvance: 256.06613
+    m_GlyphRect:
+      m_X: 1528
+      m_Y: 14
+      m_Width: 256
+      m_Height: 213
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -1642065230, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 30
+    m_Metrics:
+      m_Width: 3.703436
+      m_Height: 3.7043927
+      m_HorizontalBearingX: -1.851718
+      m_HorizontalBearingY: 1.8521963
+      m_HorizontalAdvance: 3.703436
+    m_GlyphRect:
+      m_X: 1173
+      m_Y: 12
+      m_Width: 3
+      m_Height: 3
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1720843968, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 31
+    m_Metrics:
+      m_Width: 3.1743736
+      m_Height: 3.1751938
+      m_HorizontalBearingX: -1.5871868
+      m_HorizontalBearingY: 1.5875969
+      m_HorizontalAdvance: 3.1743736
+    m_GlyphRect:
+      m_X: 1679
+      m_Y: 6
+      m_Width: 3
+      m_Height: 3
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1889446178, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 32
+    m_Metrics:
+      m_Width: 214.27022
+      m_Height: 254.5447
+      m_HorizontalBearingX: -107.13511
+      m_HorizontalBearingY: 127.27235
+      m_HorizontalAdvance: 214.27022
+    m_GlyphRect:
+      m_X: 1298
+      m_Y: 0
+      m_Width: 214
+      m_Height: 254
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -1613820045, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
+  - m_Index: 33
+    m_Metrics:
+      m_Width: 214.27022
+      m_Height: 254.5447
+      m_HorizontalBearingX: -107.13511
+      m_HorizontalBearingY: 127.27235
+      m_HorizontalAdvance: 214.27022
+    m_GlyphRect:
+      m_X: 1799
+      m_Y: 0
+      m_Width: 214
+      m_Height: 254
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 1494727844, guid: e0b6217e8dac9e1439f0fb21f6c586ae, type: 3}
   fallbackSpriteAssets: []
---- !u!21 &6141569112930485580
+--- !u!21 &5129071850269713314
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 1
